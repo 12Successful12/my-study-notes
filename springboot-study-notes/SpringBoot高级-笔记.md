@@ -405,15 +405,15 @@ public class EmployeeService {
 + 统一 key 后，效果：
 + 先查询：
 
-![](images\2.png)
+![](https://github.com/12Successful12/my-study-notes/blob/master/springboot-study-notes/images/2.png)
 
 + 然后修改：
 
-![](images\3.png)
+![](https://github.com/12Successful12/my-study-notes/blob/master/springboot-study-notes/images/3.png)
 
 + 再次查询：
 
-![](images\4.png)
+![](https://github.com/12Successful12/my-study-notes/blob/master/springboot-study-notes/images/4.png)
 
 #### 2.3.3 @CachePut属性
 
@@ -647,7 +647,7 @@ class Springboot7CacheApplicationTests {
 
 **implements Serializable**运行程序后，
 
-![](\images\5.png)
+![](https://github.com/12Successful12/my-study-notes/blob/master/springboot-study-notes/images/5.png)
 
 在数据的前后会增加序列化的值，解决办法：创建一个 MyRedisConfig 类，自己实现序列化：
 
@@ -749,7 +749,7 @@ class Springboot7CacheApplicationTests {
 
 + 效果图：
 
-![](images\6.png)
+![](https://github.com/12Successful12/my-study-notes/blob/master/springboot-study-notes/images/6.png)
 
 ### 3.5 测试缓存
 
@@ -1049,7 +1049,7 @@ public class Springboot8TaskApplication {
 
 首先要去邮箱里开通 POP3/SMTP服务、IMAP/SMTP服务、Exchange服务、CardDAV/CalDAV服务
 
-![](images\7.png)
+![](https://github.com/12Successful12/my-study-notes/blob/master/springboot-study-notes/images/7.png)
 
 ```properties
 					#发送者的邮箱
@@ -1065,7 +1065,7 @@ spring.mail.properties.mail.smtp.ssl.enable=true
 
 + spring.mail.host：这是SMTP服务器的地址
 
-![](images\8.png)
+![](https://github.com/12Successful12/my-study-notes/blob/master/springboot-study-notes/images/8.png)
 
 ### 2.3.3 测试代码
 
@@ -1754,7 +1754,7 @@ public interface TicketService {
    }
    ```
 
-<img src="images\9.png" style="zoom:60%;" />
+<img src="https://github.com/12Successful12/my-study-notes/blob/master/springboot-study-notes/images/9.png" style="zoom:60%;" />
 
 
 
@@ -1777,7 +1777,7 @@ dubbo.registry.address=zookeeper://120.25.164.172:2181
 
 + UserService.java 里面要用到 TicketService，而且要**全类名相同**！因此将整个包复制过去，实现类可以删掉，只要 TicketService 接口即可。
 
-<img src="images\11.png" style="zoom:60%;" />
+<img src="https://github.com/12Successful12/my-study-notes/blob/master/springboot-study-notes/images/11.png" style="zoom:60%;" />
 
 
 
@@ -1807,13 +1807,13 @@ dubbo.registry.address=zookeeper://120.25.164.172:2181
 
 ## 6.2 Ctrl + F9 重新编译即可
 
-![](images\10.png)
+![](https://github.com/12Successful12/my-study-notes/blob/master/springboot-study-notes/images/10.png)
 
 
 
 # 七、SpringBoot 与监控管理
 
-![](images\12.png)
+![](https://github.com/12Successful12/my-study-notes/blob/master/springboot-study-notes/images/12.png)
 
 ## 7.1 引入依赖
 
@@ -1853,6 +1853,6 @@ dubbo.registry.address=zookeeper://120.25.164.172:2181
 
 访问地址：http://localhost:8080/actuator；必须带上 **actuator**。
 
-![](images\13.png)
+![](https://github.com/12Successful12/my-study-notes/blob/master/springboot-study-notes/images/13.png)
 
 + 各个路径的作用，详情查看 另一个 pdf 文档。
